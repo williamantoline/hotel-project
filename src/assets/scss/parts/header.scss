@@ -1,0 +1,20 @@
+@import "assets/scss/variables.scss";
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 76px;
+  background-color: $white;
+  align-items: center;
+
+  .left {
+    width: 50%;
+  }
+
+  .right {
+    width: 50%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+  }
+}
