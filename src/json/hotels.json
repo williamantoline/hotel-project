@@ -1,0 +1,104 @@
+[
+  {
+    "id": "63f25aa2-efe7-11ec-8ea0-0242ac120002",
+    "name": "Queen Hotel",
+    "location": {
+      "address": "Jl. Madong Lubis No. 19A Kec. Medan Perjuangan, Medan",
+      "district": "Medan Perjuangan",
+      "city": "Medan",
+      "province": "Sumatera Utara",
+      "country": "Indonesia"
+    },
+    "images": {
+      "headline": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "gallery": [
+        {
+          "url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown the industry's standard dummy text ever since the 1500s, when an unknown",
+    "facilities": [
+      {
+        "facility_name": "TV",
+        "facility_qty": 1
+      },
+      {
+        "facility_name": "Free Internet",
+        "facility_qty": 1
+      },
+      {
+        "facility_name": "Bathroom",
+        "facility_qty": 1
+      }
+    ],
+    "statistics": {
+      "views": 343,
+      "books": 26,
+      "stars": 11
+    },
+    "price": 250000
+  },
+  {
+    "id": "63f25aa2-efe7-11ec-8ea0-0242ac120003",
+    "name": "King Hotel",
+    "location": {
+      "address": "Jl. Sudirman",
+      "district": "Medan Kota",
+      "city": "Medan",
+      "province": "Sumatera Utara",
+      "country": "Indonesia"
+    },
+    "images": {
+      "headline": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "gallery": [
+        {
+          "url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ]
+    },
+    "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown the industry's standard dummy text ever since the 1500s, when an unknown",
+    "facilities": [
+      {
+        "facility_name": "TV",
+        "facility_qty": 1
+      },
+      {
+        "facility_name": "Free Internet",
+        "facility_qty": 1
+      },
+      {
+        "facility_name": "Bathroom",
+        "facility_qty": 1
+      },
+      {
+        "facility_name": "Spa",
+        "facility_qty": 1
+      }
+    ],
+    "statistics": {
+      "views": 343,
+      "books": 26,
+      "stars": 11
+    },
+    "price": 250000
+  }
+]

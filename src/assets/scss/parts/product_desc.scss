@@ -1,0 +1,215 @@
+@import "assets/scss/variables.scss";
+
+.s-product-description {
+  display: flex;
+  padding: 72px 250px;
+  //   align-items: center;
+
+  .left {
+    width: 50%;
+    margin-right: 50px;
+
+    .c-product-desc-name {
+      .c-product-desc-name-name {
+        font-size: 48px;
+        font-weight: $fw-600;
+      }
+      .c-product-desc-name-city {
+        margin-top: 16px;
+        display: flex;
+
+        img {
+          width: 40px;
+          height: 40px;
+          margin-right: 6px;
+        }
+
+        div {
+          display: flex;
+          flex-direction: column;
+
+          p:first-child {
+            font-size: 18px;
+            font-weight: $fw-600;
+          }
+
+          p:nth-child(2) {
+            margin-top: 2px;
+            font-weight: $fw-500;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .c-product-desc-overview {
+      margin-top: 54px;
+
+      p:first-child {
+        font-size: 32px;
+        font-weight: $fw-600;
+      }
+      p:nth-child(2) {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: $fw-500;
+        line-height: 140%;
+      }
+    }
+
+    .c-product-desc-facilities {
+      margin-top: 54px;
+
+      p:first-child {
+        font-size: 32px;
+        font-weight: $fw-600;
+      }
+      p:nth-child(2) {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: $fw-500;
+        line-height: 140%;
+      }
+    }
+  }
+
+  .right {
+    width: 50%;
+
+    .c-product-stats {
+      display: flex;
+
+      .c-product-stats-stat {
+        display: flex;
+        flex-direction: column;
+        margin-right: 42px;
+
+        p:first-child {
+          font-size: 40px;
+          font-weight: $fw-600;
+        }
+        p:nth-child(2) {
+          font-size: 20px;
+          font-weight: $fw-500;
+        }
+      }
+    }
+
+    .c-product-stars {
+      margin-top: 24px;
+    }
+
+    .c-product-book {
+      margin-top: 36px;
+      width: 540px;
+      background-color: $white;
+      padding: 28px 32px 36px 32px;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+
+      .c-product-book-title {
+        font-size: 24px;
+        font-weight: $fw-600;
+        margin-bottom: 24px;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        .input-group {
+          p {
+            font-size: 18px;
+            font-weight: $fw-600;
+          }
+
+          .input {
+            margin-top: 8px;
+            width: 236px;
+            height: 38px;
+            display: flex;
+
+            input {
+              height: 100%;
+              width: 192px;
+              border: 0;
+              background-color: $dark-3;
+              padding: 0 14px;
+              &::placeholder {
+                color: $dark-1;
+              }
+            }
+
+            button {
+              height: 100%;
+              width: 44px;
+              text-align: center;
+              color: white;
+            }
+          }
+          .price {
+            display: flex;
+            flex-direction: column;
+
+            .price-tag {
+              margin-top: 2px;
+              display: flex;
+              flex-direction: row;
+              align-items: flex-end;
+
+              p:first-child {
+                font-size: 24px;
+                font-weight: $fw-600;
+              }
+              p:nth-child(2) {
+                font-size: 32px;
+                font-weight: $fw-600;
+              }
+            }
+
+            .info {
+              margin-top: 6px;
+              display: flex;
+              align-items: ce;
+
+              img {
+                width: 16px;
+                height: 16px;
+                margin-right: 4px;
+              }
+
+              p {
+                font-weight: $fw-400;
+                color: $dark-2;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+
+        .separator-icon {
+          img {
+            margin: 28px 14px 0 14px;
+            width: 38px;
+            height: 38px;
+          }
+        }
+        .separator {
+          margin: 0 33px;
+        }
+      }
+
+      .btn-group {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        button {
+          margin-left: 24px;
+        }
+      }
+    }
+  }
+}
