@@ -1,0 +1,66 @@
+@import "assets/scss/_variables.scss";
+
+.c-card-testimonial {
+  width: 422px;
+  height: 632px;
+  background-color: $white;
+  margin-right: 32px;
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .card-header {
+    img {
+      width: 422px;
+      height: 368px;
+    }
+  }
+
+  .card-body {
+    padding: 24px;
+
+    .card-body-name {
+      font-weight: $fw-500;
+      display: flex;
+      align-items: flex-end;
+
+      .card-body-name-name {
+        font-size: 32px;
+      }
+
+      .card-body-name-comma {
+        font-size: 32px;
+        margin-right: 4px;
+      }
+
+      .card-body-name-age {
+        font-size: 24px;
+      }
+    }
+
+    .card-body-job {
+      margin-top: 2px;
+
+      p {
+        font-weight: $fw-500;
+        font-size: 18px;
+      }
+    }
+
+    .card-body-stars {
+    }
+
+    .card-body-comment {
+      margin-top: 6px;
+
+      p {
+        font-weight: $fw-400;
+        font-size: 18;
+        width: 344px;
+      }
+    }
+  }
+}

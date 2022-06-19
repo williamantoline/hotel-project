@@ -1,0 +1,73 @@
+@import "assets/scss/variables.scss";
+
+.s-hero {
+  display: flex;
+  padding: 72px 250px;
+  align-items: center;
+
+  .left,
+  .right {
+    width: 50%;
+  }
+
+  .left {
+    margin-right: 50px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .right {
+    .c-hero-headline {
+      text-align: left;
+      font-size: 60px;
+      font-weight: $fw-600;
+    }
+
+    .c-hero-tagline {
+      margin-top: 24px;
+      text-align: left;
+      font-size: 32px;
+      font-weight: $fw-500;
+      line-height: 150%;
+    }
+
+    .c-hero-search-hotel {
+      margin-top: 54px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+
+      p {
+        font-size: 20px;
+        font-weight: $fw-500;
+      }
+
+      .c-hero-search-hotel-input {
+        margin-top: 12px;
+        width: 560px;
+        height: 54px;
+        display: flex;
+        flex-direction: row;
+
+        &::placeholder {
+          font-size: 28px;
+          color: $dark-1;
+        }
+
+        input {
+          height: 100%;
+          width: 440px;
+          border: 0;
+          padding: 0 24px;
+          box-sizing: border-box;
+        }
+
+        button {
+          height: 100%;
+          width: 120px;
+        }
+      }
+    }
+  }
+}

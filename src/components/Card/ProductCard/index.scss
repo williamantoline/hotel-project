@@ -1,0 +1,90 @@
+@import "assets/scss/_variables.scss";
+
+.c-card-product {
+  width: 240px;
+  padding-bottom: 24px;
+  // height: 390px;
+  background-color: $white;
+  margin-right: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    .card-header img {
+      // transform: scale(1.1);
+      transform: translateX(-40%);
+    }
+  }
+
+  .card-header {
+    overflow: hidden;
+    width: 240px;
+    height: 240px;
+    img {
+      transition: all 0.25s ease-in-out;
+      width: 240px;
+      height: 240px;
+    }
+  }
+
+  .card-body {
+    padding: 14px 20px 0 20px;
+
+    .card-body-name {
+      font-weight: $fw-500;
+      display: flex;
+      flex-direction: column;
+
+      .card-body-name-name {
+        font-size: 18px;
+        font-weight: $fw-600;
+      }
+
+      .card-body-name-city {
+        margin-top: 4px;
+        font-size: 11px;
+      }
+    }
+    .card-body-name-stars {
+      margin-top: 4px;
+      font-size: 32px;
+    }
+
+    .card-body-price {
+      display: flex;
+      align-items: flex-end;
+      justify-content: end;
+
+      p {
+        font-size: 14px;
+        font-weight: $fw-500;
+      }
+
+      .card-body-price-price {
+        font-size: 20px;
+        font-weight: $fw-500;
+      }
+    }
+
+    .card-body-job {
+      margin-top: 2px;
+
+      p {
+        font-weight: $fw-500;
+        font-size: 18px;
+      }
+    }
+
+    .card-body-stars {
+    }
+
+    .card-body-comment {
+      margin-top: 6px;
+
+      p {
+        font-weight: $fw-400;
+        font-size: 18;
+        width: 344px;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "assets/scss/variables.scss";
+
+.s-catalogue {
+  padding: 72px 250px;
+  border: 2px solid #000000;
+  border-width: 2px 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  .c-section-card {
+    .scrollable {
+      position: relative;
+      margin: 24px 0 72px;
+      display: flex;
+      align-content: center;
+      width: 1420px;
+      max-width: 1420px;
+      overflow-x: scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+
+    // .scroll-effect {
+    //   position: relative;
+    //   height: 100%;
+    //   width: 200px;
+    //   background-color: cyan;
+    // }
+  }
+}

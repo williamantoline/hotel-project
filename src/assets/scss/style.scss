@@ -1,20 +1,30 @@
 @import "assets/scss/parts/header.scss";
+@import "assets/scss/parts/testimonial.scss";
+@import "assets/scss/parts/hero.scss";
+@import "assets/scss/parts/catalogue.scss";
 
 @import "components/Button/index.scss";
 @import "components/Logo/index.scss";
+@import "components/Card/TestimonialCard/index.scss";
+@import "components/Card/ProductCard/index.scss";
 
 * {
   font-family: "Plus Jakarta Sans";
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
 body {
   background-color: $light-1;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-body header {
-  padding: 0 250px;
+body {
+  header {
+    padding: 0 250px;
+  }
 }
 
 a {
@@ -58,4 +68,9 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+.c-section-text {
+  font-size: 36px;
+  font-weight: $fw-500;
 }
