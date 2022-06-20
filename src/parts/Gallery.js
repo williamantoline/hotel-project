@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Gallery(props) {
-  console.log(props.data);
   return (
     <div className="s-gallery">
       <p className="c-section-text"></p>
