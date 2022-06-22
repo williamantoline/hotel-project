@@ -3,6 +3,7 @@ import propTypes from "prop-types";
 
 export default function Button(props) {
   const className = [];
+  // const styles = [];
   className.push("component-button");
   className.push("btn");
   if (props.isPrimary) className.push("btn-primary");
@@ -10,6 +11,7 @@ export default function Button(props) {
   if (props.isTertiary) className.push("btn-tertiary");
   if (props.isQuartenary) className.push("btn-quartenary");
   if (props.link) className.push("btn-link");
+  // if (props.width) styles.push(`width: ${props.width}px`)
 
   if (props.type === "link") {
     return (

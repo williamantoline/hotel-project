@@ -1,0 +1,68 @@
+@import "assets/scss/variables.scss";
+
+.s-auth-page {
+    width: 100%;
+    background-color: $quartenary;
+    display: flex;
+    align-items: center;
+
+    .right {
+        width: 50%;
+
+        .c-auth-container {
+            padding: 0 50px;
+
+            .c-auth-container-title {
+                font-size: 32px;
+                font-weight: $fw-600;
+                margin-bottom: 32px;
+            }
+
+            .input-group {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+
+                label {
+                    font-size: 20;
+                    font-weight: $fw-500;
+                }
+
+                input {
+                    margin-top: 10px;
+                    width: 400px;
+                    height: 50px;
+                }
+            }
+
+            .spacer {
+                margin-bottom: 42px;
+            }
+
+            .secondary {
+                margin: 28px 0 10px 0;
+                font-size: 18px;
+                font-weight: $fw-500;
+            }
+        }
+    }
+
+    .left {
+        width: 50%;
+        height: 817px;
+
+        img {
+            width: 100%;
+            height: 817px;
+        }
+    }
+}
+.s-auth-page#register {
+    flex-direction: row-reverse;
+
+    .right {
+        .c-auth-container {
+            padding: 0 250px;
+        }
+    }
+}
