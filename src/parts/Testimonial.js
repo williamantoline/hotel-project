@@ -6,9 +6,9 @@ export default function Testimonial(props) {
     <div className="s-testimonial">
       <p className="c-section-text">What they said</p>
       <div className="c-section-card">
-        <TestimonialCard></TestimonialCard>
-        <TestimonialCard></TestimonialCard>
-        <TestimonialCard></TestimonialCard>
+        {props.data.map((el) => {
+          return <TestimonialCard data={el}></TestimonialCard>;
+        })}
       </div>
     </div>
   );

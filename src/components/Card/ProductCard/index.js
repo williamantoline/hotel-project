@@ -1,21 +1,23 @@
 import React from "react";
 
-export default function ProductCard() {
+export default function ProductCard(props) {
   return (
-    <a href="/hotels/63f25aa2-efe7-11ec-8ea0-0242ac120002">
+    <a href={`hotels/${props.data._id}`}>
       <div className="c-card-product">
         <div className="card-header">
-          <img src="https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"></img>
+          <img src={props.data.images.headline}></img>
           <div>a</div>
         </div>
         <div className="card-body">
           <div className="card-body-name">
-            <p className="card-body-name-name">Queen Hotel</p>
-            <p className="card-body-name-city">MEDAN KOTA, MEDAN</p>
+            <p className="card-body-name-name">{props.data.name}</p>
+            <p className="card-body-name-city">
+              {props.data.location.city}, {props.data.location.country}
+            </p>
           </div>
           <div className="card-body-stars">*****</div>
           <div className="card-body-price">
-            <p className="card-body-price-price">Rp140039</p>
+            <p className="card-body-price-price">Rp{props.data.price}</p>
             <p>/night</p>
           </div>
         </div>

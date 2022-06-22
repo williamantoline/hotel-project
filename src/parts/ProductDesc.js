@@ -84,7 +84,7 @@ export default function ProductDesc(props) {
               <div className="price">
                 <div className="price-tag">
                   <p>Rp</p>
-                  <p>250000</p>
+                  <p>{props.data.price}</p>
                 </div>
                 <div className="info">
                   <img src="/icons/ic_info.png"></img>

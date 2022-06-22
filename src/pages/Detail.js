@@ -9,7 +9,7 @@ import hotelsData from "json/hotels.json";
 
 const find = (hotelsData, id) => {
   for (let i = 0; i < hotelsData.length; i++) {
-    if (hotelsData[i].id == id) {
+    if (hotelsData[i]._id == id) {
       return hotelsData[i];
     }
   }

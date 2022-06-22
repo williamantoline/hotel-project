@@ -7,15 +7,10 @@ export default function Catalogue(props) {
       <p className="c-section-text">Hotel Bintang 4 dan 5 di Medan</p>
       <div className="c-section-card">
         <div className="scrollable">
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
+          {props.data.map((el) => {
+            return <ProductCard data={el}></ProductCard>;
+          })}
         </div>
-        {/* <div className="scroll-effect">a</div> */}
       </div>
     </div>
   );

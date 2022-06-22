@@ -1,6 +1,6 @@
 [
   {
-    "id": "63f25aa2-efe7-11ec-8ea0-0242ac120002",
+    "_id": "63f25aa2-efe7-11ec-8ea0-0242ac120002",
     "name": "Queen Hotel",
     "location": {
       "address": "Jl. Madong Lubis No. 19A Kec. Medan Perjuangan, Medan",
@@ -49,7 +49,7 @@
     "price": 250000
   },
   {
-    "id": "63f25aa2-efe7-11ec-8ea0-0242ac120003",
+    "_id": "63f25aa2-efe7-11ec-8ea0-0242ac120003",
     "name": "King Hotel",
     "location": {
       "address": "Jl. Sudirman",
